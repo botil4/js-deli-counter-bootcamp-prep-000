@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
   } else {
     var i = 0
-    var string = "The Line is currently: "
+    var string = "The line is currently: "
     while (i < len-1) {
       string = string + `${i+1}. ${katzDeliLine[i]}, `
       i++
